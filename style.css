@@ -1,0 +1,63 @@
+body
+{
+    margin: 0;
+    padding: 15px;
+}
+h2 {
+  color: white;
+}
+h5 {
+  color: white
+}
+ul li{
+  display: inline;
+  padding: 10px;
+  font-size: 20px;
+}
+.columns {
+  vertical-align: top;
+  display:inline-block;
+  width: 31%;
+  margin: 0;
+  text-align: center;
+  padding: 5px;
+
+
+}
+.icons {
+  display: block;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.iconHeader {
+  font-weight: bold;
+  font-size: 25px;
+}
+#aboutText {
+  font-size: 20px;
+  padding: 10px
+}
+#particles-js
+{
+  height: 500px;
+  background: #f00;
+  background-image: url("space.jpg");
+}
+#profpic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+#profPicDiv {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+#skillsList {
+  padding: 10px;
+}
+#threeColumns {
+  padding-top: 20px;
+}
