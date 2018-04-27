@@ -24,14 +24,26 @@ ul li{
 
 
 }
+.grow {
+  font-size: 25px;
+  text-decoration:none;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
 .icons {
-  display: block;
+  display: inline-block;
   margin: auto;
   padding-bottom: 10px;
 }
 .iconHeader {
   font-weight: bold;
   font-size: 25px;
+}
+.links {
+  width: 100%;
+  padding: 150px;
+  margin: 100px;
 }
 #aboutText {
   font-size: 20px;
