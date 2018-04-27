@@ -1,7 +1,10 @@
+a {
+  text-decoration:none;
+}
 body
 {
     margin: 0;
-    padding: 15px;
+
 }
 h2 {
   color: white;
@@ -11,6 +14,7 @@ h5 {
 }
 ul li{
   display: inline;
+  vertical-align: top;
   padding: 10px;
   font-size: 20px;
 }
@@ -23,6 +27,31 @@ ul li{
   padding: 5px;
 
 
+}
+.fig {
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.figdis {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.fig:hover .figdis {
+  visibility: visible;
+  opacity: 1;
 }
 .grow {
   font-size: 20px;
@@ -46,12 +75,41 @@ ul li{
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
+  transition: transform .2s;
+}
+.links:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.navBarLinks {
+  color: white;
+}
+.proj {
+  width: 31%;
+  padding: 10px;
+  vertical-align: top;
+  display:inline-block;
+  margin: 0;
+}
+.projImg {
 
+  width: 80%;
+  height: 50%;
+}
+.projImg:hover {
 
 }
+
 #aboutText {
   font-size: 20px;
   padding: 10px
+}
+#contact {
+  background-color: rgb(148,61,199);
+}
+#navBar {
+  top: 1%;
+  left: 1%;
+  position: fixed;
 }
 #particles-js
 {
@@ -71,9 +129,17 @@ ul li{
   left:50%;
   transform:translate(-50%,-50%);
 }
+#projects {
+  padding-top: 40px;
+}
 #skillsList {
   padding: 10px;
 }
 #threeColumns {
   padding-top: 20px;
+}
+#vote {
+  transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
 }
