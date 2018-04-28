@@ -1,10 +1,16 @@
 a {
   text-decoration:none;
 }
-body
-{
+body {
     margin: 0;
 
+}
+footer {
+  position: relative;
+  bottom: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: purple;
 }
 h2 {
   color: white;
@@ -25,33 +31,6 @@ ul li{
   margin: 0;
   text-align: center;
   padding: 5px;
-
-
-}
-.fig {
-  position: relative;
-  height: 200px;
-  width: 257px;
-}
-
-.figdis {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(29, 106, 154, 0.72);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-
-  /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
-}
-
-.fig:hover .figdis {
-  visibility: visible;
-  opacity: 1;
 }
 .grow {
   font-size: 20px;
@@ -84,20 +63,41 @@ ul li{
   color: white;
 }
 .proj {
-  width: 31%;
-  padding: 10px;
+  width: 32%;
+  margin: 20%;
   vertical-align: top;
   display:inline-block;
   margin: 0;
+  position:relative;
+
 }
+.projDescription {
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 100%;
+  color: black;
+  visibility: hidden;
+  opacity: 1;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+.proj:hover .projDescription {
+  visibility: visible;
+  opacity: .5;
+}
+
 .projImg {
+  height: 45%;
 
-  width: 80%;
-  height: 50%;
+  display:block;
+  margin:auto;
 }
-.projImg:hover {
 
-}
 
 #aboutText {
   font-size: 20px;
