@@ -3,13 +3,17 @@ a {
 }
 body {
     margin: 0;
-
 }
 footer {
-  position: relative;
+  display: inline-block;
+  width: 100%;
+  top: 100%;
+  padding: 20px;
   bottom: 0;
-  overflow: hidden;
+  height: 40px;
+  float: left;
   text-align: center;
+  vertical-align: bottom;
   background-color: purple;
 }
 h2 {
@@ -31,6 +35,12 @@ ul li{
   margin: 0;
   text-align: center;
   padding: 5px;
+}
+.footerIcon{
+  width: 25px;
+  height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .grow {
   font-size: 20px;
@@ -67,15 +77,14 @@ ul li{
   margin: 20%;
   vertical-align: top;
   display:inline-block;
-  margin: 0;
   position:relative;
-
+  margin: 0;
 }
 .projDescription {
   text-align: center;
-  vertical-align: middle;
+  vertical-align: bottom;
   position: absolute;
-  top: 50%;
+  top: 90%;
   left: 0;
   right: 0;
   height: 100%;
@@ -90,15 +99,12 @@ ul li{
   visibility: visible;
   opacity: .5;
 }
-
 .projImg {
   height: 45%;
 
   display:block;
   margin:auto;
 }
-
-
 #aboutText {
   font-size: 20px;
   padding: 10px
@@ -111,8 +117,7 @@ ul li{
   left: 1%;
   position: fixed;
 }
-#particles-js
-{
+#particles-js {
   height: 500px;
   background: #f00;
   background-image: url("space.jpg");
