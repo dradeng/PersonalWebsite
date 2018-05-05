@@ -3,18 +3,17 @@ a {
 }
 body {
     margin: 0;
+    height: 100%;
 }
 footer {
-  display: inline-block;
-  width: 100%;
-  top: 100%;
-  padding: 20px;
+  position: relative;
+  padding-top: 100px;
+  left: 0;
   bottom: 0;
-  height: 40px;
-  float: left;
+  width: 100%;
   text-align: center;
   vertical-align: bottom;
-  background-color: purple;
+  
 }
 h2 {
   color: white;
@@ -70,7 +69,7 @@ ul li{
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 .navBarLinks {
-  color: white;
+  
 }
 .proj {
   width: 32%;
@@ -119,8 +118,8 @@ ul li{
 }
 #particles-js {
   height: 500px;
-  background: #f00;
-  background-image: url("space.jpg");
+  
+  background-image: url("images/space.jpg");
 }
 #profpic {
     border-radius: 50%;

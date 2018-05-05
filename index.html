@@ -3,14 +3,29 @@
     <meta charset="utf-8">
     <title>Draden Gaffney</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+
+      window.onscroll = function () { 
+        "use strict";
+        if (document.body.scrollTop >= 200 ) {
+          document.getElementsById("navBar").style.backgroundColor = "red";
+        } 
+        else {
+          document.getElementsById("navBar").style.backgroundColor = "green";
+          }
+        };
+    </script>
   </head>
   <body>
+
       <div id="particles-js"></div>
+      
+
       <script type="text/javascript" src="particles.js"></script>
       <script type="text/javascript" src="app.js"></script>
 
       <div id="profPicDiv">
-        <img id="profpic" src="profpic.jpg">
+        <img id="profpic" src="images/profpic.jpg">
         <h2>Draden Gaffney</h2>
         <h5>BS in CS University of Virginia, 2020</h5>
       </div>
@@ -32,7 +47,7 @@
         <h1 style="text-align:center">Portfolio<h1>
 
         <div class="columns" id="about">
-          <img class="icons" src="cloudIcon.png">
+          <img class="icons" src="images/cloudIcon.png">
           <div class="iconHeader">About</div>
           <div id="aboutText">
             Currently finishing up my second year at UVa. This summer I will be living in Las Vegas, Nevada
@@ -43,7 +58,7 @@
         </div>
 
         <div class="columns" id="skills">
-          <img class="icons" src="codingIcon.png">
+          <img class="icons" src="images/codingIcon.png">
           <div class="iconHeader">Skills</div>
 
           <ul id="skillsList">
@@ -63,7 +78,7 @@
 
         <div class="columns" id="links">
 
-          <img class="icons" src="worldIcon.png">
+          <img class="icons" src="images/worldIcon.png">
 
           <div class="iconHeader">Links</div>
 
@@ -81,7 +96,7 @@
       <div id="projects">
         <div class="proj">
         <a href="templates/shed.html">
-          <img class="projImg" src="shed.webp">
+          <img class="projImg" src="images/shed.jpg">
         </a>
           <p class="projDescription">
             Shed is a p2p platform that allows people to buy, rent, sell consumer products to neighbors.
@@ -90,7 +105,7 @@
 
         <div class="proj">
           <a href="templates/ethereumAutoTrader.html">
-            <img class="projImg" src="ether.jpg">
+            <img class="projImg" src="images/ether.jpg">
           </a>
           <p class="projDescription">
             Ethereum AutoTrader is an algorithm that predicts hourly Ethereum prices with an accuracy of
@@ -100,7 +115,7 @@
 
         <div class="proj">
           <a href="templates/vote.html">
-            <img id="vote" class="projImg" src="vote.png">
+            <img id="vote" class="projImg" src="images/vote.png">
           </a>
           <p class="projDescription">
             ScrumLoo is an electronic voting system that follows the procedures and rules of the
@@ -115,8 +130,8 @@
 
     <footer>
         dsg2dm@virginia.edu
-          <img class="footerIcon" src="git.png">
-          <img class="footerIcon" src="linkedin.png">
+          <img class="footerIcon" src="images/git.png">
+          <img class="footerIcon" src="images/linkedin.png">
         &copy 2018 Draden Gaffney
     </footer>
 
