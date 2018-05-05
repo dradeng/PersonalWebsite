@@ -1,3 +1,9 @@
+a {
+	text-decoration: none;
+}
+body {
+	padding: 20px;
+}
 footer {
   position: relative;
   padding-top: 100px;
@@ -24,12 +30,13 @@ ul li{
   color: purple;
 }
 .shedImage {
-	width: 32%;
+	width: 24%;
 	display: inline-block;
 }
 .shedText {
 	font-size: 20;
 	line-height: 1.7;
+	padding: 25px;
 }
 .topImg {
   min-height: 150px;
@@ -43,7 +50,9 @@ ul li{
 #navBar {
   top: 1%;
   left: 1%;
-  position: fixed;
+}
+.navBarLinks {
+  color: black;
 }
 #topShedRow {
   width: 100%;
