@@ -1,0 +1,52 @@
+footer {
+  position: relative;
+  padding-top: 100px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  vertical-align: bottom;
+  
+}
+ul li{
+  display: inline;
+  vertical-align: top;
+  padding: 10px;
+  font-size: 20px;
+}
+.footerIcon{
+  width: 25px;
+  height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.navBarLinks {
+  color: purple;
+}
+.shedImage {
+	width: 32%;
+	display: inline-block;
+}
+.shedText {
+	font-size: 20;
+	line-height: 1.7;
+}
+.topImg {
+  min-height: 150px;
+  min-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle 
+}
+#navBar {
+  top: 1%;
+  left: 1%;
+  position: fixed;
+}
+#topShedRow {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
