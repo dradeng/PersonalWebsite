@@ -5,15 +5,31 @@
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript">
 
+
       window.onscroll = function () { 
         "use strict";
-        if (document.body.scrollTop >= 200 ) {
-          document.getElementsById("navBar").style.backgroundColor = "red";
-        } 
-        else {
-          document.getElementsById("navBar").style.backgroundColor = "green";
+        var nav = document.getElementsByClassName("navBarLinks");
+        var navLength = nav.length
+
+        if (document.body.scrollTop <= 500 ) {
+          for(var i = 0; i < navLength; i++) {
+
+            nav[i].style.visibility = "visible";
+            
           }
-        };
+          
+        }
+        if (document.body.scrollTop > 500 ) {
+          for(var i = 0; i < navLength; i++) {
+
+            nav[i].style.visibility = "hidden";
+            
+          }
+          
+        }
+
+        
+      };
     </script>
   </head>
   <body>
