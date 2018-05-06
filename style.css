@@ -70,6 +70,7 @@ ul li{
 }
 .navBarLinks {
   color: white;
+  font-family: Courier;
 }
 .proj {
   width: 32%;
@@ -107,9 +108,6 @@ ul li{
 #aboutText {
   font-size: 20px;
   padding: 10px
-}
-#contact {
-  background-color: rgb(148,61,199);
 }
 #navBar {
   top: 1%;
